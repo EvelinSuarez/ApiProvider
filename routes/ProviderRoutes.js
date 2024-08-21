@@ -6,6 +6,6 @@ import { getProvider, postProvider, putProvider, deleteProvider } from '../contr
 ProviderRoutes.get('/', getProvider)
 ProviderRoutes.post('/', postProvider)
 ProviderRoutes.put('/', putProvider)
-ProviderRoutes.delete('/:id',deleteProvider)
+ProviderRoutes.delete('/+:id',deleteProvider)
 
 export default ProviderRoutes
